@@ -1,0 +1,38 @@
+{
+    "Groups":[
+        {
+            "Name":"main",
+            "DisplayName":"Options",
+            "Elements":[
+                {
+                    "Name":"IncludeDir0",
+                    "DisplayName":"Glow",
+                    "Description":[
+                        "Choose if you want the arm to glow"
+                    ],
+                    "Type":"ModelTypesNum",
+                    "DefaultValue":"non_glow"
+                }
+            ]
+        }
+    ],
+    "Enums":{
+        "ModelTypesNum":[
+            {
+                "DisplayName":"Non-Glowing",
+                "Value":"non_glow",
+                "Description":[
+                    "Sonic's arm will NOT glow."
+                ]
+            },
+            {
+                "DisplayName":"Glowing",
+                "Value":"glow",
+                "Description":[
+                    "Sonic's arm WILL glow."
+                ]
+            }
+        ]
+    },
+    "IniFile":"mod.ini"
+}
